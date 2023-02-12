@@ -1,4 +1,5 @@
 from http.server import BaseHTTPRequestHandler
+from os.path import join
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
