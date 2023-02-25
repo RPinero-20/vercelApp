@@ -5,6 +5,13 @@ name = "pypi"
 
 [packages]
 flask = "*"
+python-dotenv = "*"
+pycparser = "*"
+PyJWT = "*"
+jwt = "*"
+requests = "*"
+utils = "*"
+werkzeug = "*"
 
 [requires]
 python_version = "3.9"
