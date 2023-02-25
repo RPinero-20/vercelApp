@@ -1,1 +1,8 @@
 flask == 2.2.2
+python-dotenv = "*"
+pycparser = "*"
+PyJWT = "*"
+jwt = "*"
+requests = "*"
+utils = "*"
+werkzeug = "*"
