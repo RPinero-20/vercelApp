@@ -1,6 +1,6 @@
 import jwt
 from flask import Blueprint, request, jsonify
-from model_jwt import write_token, validate_token
+from api.model_jwt import write_token, validate_token
 
 
 routes_auth = Blueprint("routes_auth", __name__)
