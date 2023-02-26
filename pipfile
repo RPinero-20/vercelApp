@@ -4,13 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-python-dotenv = "*"
-pycparser = "*"
-PyJWT = "*"
-requests = "*"
-utils = "*"
-werkzeug = "*"
+flask == 2.2.2
+pycparser == 2.21
+PyJWT == 2.6.0
+python-dotenv == 0.21.1
+requests == 2.28.2
+urllib3 == 1.26.14
+utils == 1.0.1
+werkzeug == 2.2.3
 
 [requires]
 python_version = "3.9"
