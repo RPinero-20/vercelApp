@@ -1,6 +1,7 @@
 from http.server import BaseHTTPRequestHandler
 from os.path import join
 from api.main import chatMainPoint
+import jwt
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
